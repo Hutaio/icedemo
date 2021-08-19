@@ -1,0 +1,48 @@
+{
+  "modeConfig": {
+    "dev": {
+      "proxy": {
+        "/api": {
+          "enable": true,
+          "changeOrigin": true,
+          "target": "http://devgatefeewee.cn"
+        }
+      }
+    },
+    "test": {
+      "proxy": {
+        "/api": {
+          "enable": true,
+          "changeOrigin": true,
+          "target": "http://testgatefeewee.cn"
+        }
+      }
+    },
+    "prod": {
+      "proxy": {
+        "/api": {
+          "enable": true,
+          "changeOrigin": true,
+          "target": "http://gatefeewee.cn"
+        }
+      }
+    }
+  },
+  "plugins": [
+    [
+      "build-plugin-fusion",
+      {
+        "themePackage": "@alifd/theme-design-pro"
+      }
+    ],
+    [
+      "build-plugin-moment-locales",
+      {
+        "locales": ["zh-cn"]
+      }
+    ]
+  ],
+  "router": {
+    "caseSensitive": true
+  }
+}
