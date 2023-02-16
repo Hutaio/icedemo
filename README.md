@@ -7,10 +7,14 @@
 
 ```bash
 # 安装依赖
- npm install or yarn
+ npm install 
+ or 
+ yarn
 
 # 启动服务
- npm start or yarn start  
+ npm start 
+ or 
+ yarn start  
  # visit http://localhost:3333
 ```
 
