@@ -1,5 +1,5 @@
 
-## Fusion Design Pro - TS
+## Fusion Design Pro - TS 
 
 > 使用 TypeScript，包含大量 UI 区块，比如图表、表单等。
 
@@ -7,10 +7,10 @@
 
 ```bash
 # 安装依赖
-$ npm install
+$ npm install or yarn
 
 # 启动服务
-$ npm start  # visit http://localhost:3333
+$ npm start or yarn start  # visit http://localhost:3333
 ```
 
 [More docs](https://ice.work/docs/guide/about).
