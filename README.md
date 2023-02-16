@@ -7,10 +7,11 @@
 
 ```bash
 # 安装依赖
-$ npm install or yarn
+ npm install or yarn
 
 # 启动服务
-$ npm start or yarn start  # visit http://localhost:3333
+ npm start or yarn start  
+ # visit http://localhost:3333
 ```
 
 [More docs](https://ice.work/docs/guide/about).
