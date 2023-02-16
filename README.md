@@ -16,7 +16,7 @@
 
 [More docs](https://ice.work/docs/guide/about).
 
-## 目录结构
+## 目录
 
 ```md
 ├── build/                         # 构建产物
